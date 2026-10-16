@@ -1,0 +1,8 @@
+Goal: Create a Redis copy using Neovim as the editor.
+
+## October 15
+I have to read about the protocol Redis use and what are its capabilities. 
+I have no idea where to start, so I will start from memory. My first goal is to create an application that allows me to store integers for keys, like a hash in Ruby. For now, it should save it only in memory and be accessed by the terminal.
+Reading https://pkg.go.dev/io@go1.27.2 to understand how to parse input.
+I couldn't find anything in docs so I tried Google.
+From [this page](https://tutorialedge.net/golang/reading-console-input-golang/), the secret is to use `bufio.NewReader(os.Stdin)`
