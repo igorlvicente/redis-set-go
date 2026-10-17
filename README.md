@@ -9,3 +9,5 @@ From [this page](https://tutorialedge.net/golang/reading-console-input-golang/),
 
 ## October 16
 I was able to read something from the terminal and output it. I am still not sure what exactly is bufion and fmt, but I guess it's like scanf and printf in C.
+My next goal is to find out which operations Redis has, then implement the simplest one, which probably is "add". 
+SET and GET are the most basic ones. My goal now is to add those 2 commands that should keep the values while the program is running only. Storing them to the disk comes later.
