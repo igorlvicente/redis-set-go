@@ -6,3 +6,6 @@ I have no idea where to start, so I will start from memory. My first goal is to 
 Reading https://pkg.go.dev/io@go1.27.2 to understand how to parse input.
 I couldn't find anything in docs so I tried Google.
 From [this page](https://tutorialedge.net/golang/reading-console-input-golang/), the secret is to use `bufio.NewReader(os.Stdin)`
+
+## October 16
+I was able to read something from the terminal and output it. I am still not sure what exactly is bufion and fmt, but I guess it's like scanf and printf in C.
