@@ -2,12 +2,15 @@ package main
 
 import (
 	"bufio"
-	"os"
 	"fmt"
+	"os"
 )
 
 func main() {
+	database := map[string]string{}
 	reader := bufio.NewReader(os.Stdin)
-	inputFromTerminal, _ := reader.ReadString('\n')
-	fmt.Print(inputFromTerminal)
+	key, _ := reader.ReadString('\n')
+	value, _ := reader.ReadString('\n')
+	database[key] = value
+	fmt.Print(database)
 }
